@@ -1,0 +1,298 @@
+.body {
+    background-color: #996633;
+    color: #FFFFFF;
+    
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+/***************** Navigation Layout ***********************/
+.nav_main {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	
+	background-color: #663300;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav_main ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #663300;	
+}
+
+.nav_main ul li {	
+	float: left;
+	width: 16.5%;
+	
+}
+
+.nav_main ul li a {
+	width: 100%;
+	display: inline-block;
+	color: #FFFFCC;		
+	text-align: center;
+	padding: 2px 0px;		
+	font-weight: bold;	
+	text-decoration: none;	
+	
+}
+
+.nav_main ul li a:hover{
+	background-color: #996633;
+
+	border-color: #452F1E;
+
+}
+
+.nav_selected {
+	background-color: #452F1E;
+}
+
+/****************** Banner Layout ***************************/
+.banner_main {
+	display: block;
+
+	width: 90%;
+	margin: 0 auto 0 auto;
+	
+	
+	background-color: #663300;
+}
+
+.banner_main img {
+	width: 100%;
+	
+}
+	
+/****************** Main Layout ***************************/
+.div_main {
+		display: block;
+		overflow: auto;
+	
+		height: 100%;	
+		width: 90%;
+		min_width: 700px;
+		margin: 0 auto 0 auto;
+		padding-top: 5px;
+	
+					
+    	color: #FFFFCC;		
+		background-color: #452F1E;
+		
+		text-align: center;
+	}
+
+/******************* Home Layout ***************************/
+.div_left {
+	
+	float: left; 
+	
+	width: 33%;
+	height: 100%;
+	
+	
+}
+
+.div_right {
+	
+	width: 34%;
+	height: 100%;
+	float: left; 
+}
+
+
+
+/********************** Home Layout *****************************/
+
+
+.home_center {
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	text-align: center;
+	width: 60%;	
+}
+
+.home_center img{
+	 box-shadow: 1px 1px 1px; 
+	border-style: solid;
+	border-width: 5px;
+}
+
+.home_side {
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 20%;
+	padding-top: 200px;
+	
+}
+
+.home_side p {
+		color: #FFFFCC;
+    font-size: 0.75em;
+}
+
+iframe {
+	
+	scrolling: no;
+	border: 0;
+	overflow: hidden;
+}
+
+.mapFrame {
+	
+	scrolling: no;
+	border: 0;
+	overflow: hidden;
+	float: left;
+	width:75%;
+	min-height: 800px;
+}
+	
+	
+	
+/******************* Tours Layout ***************************/
+.tours_side {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 20%;
+}
+
+.tours_side a:link {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_side a:active {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_side a:visited {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_main {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: left;
+	/* padding-left: 50px; */
+	width: 80%;
+
+}
+
+.tours_main img{
+	 box-shadow: 1px 1px 1px; 
+	border-style: solid;
+	border-width: 5px;
+}
+
+.tours_main hr {
+	border-color: #FFFFCC;
+	padding: 0;
+	margin: 0;
+}
+
+.tours_main h1 {
+	font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+}
+	
+/******************* Booking Layout ***************************/
+.bookingMessage {
+	
+	text-align: left;
+
+	
+	margin-left: 20px;
+}
+
+.bookingMessage {
+	color: #FFFFCC;
+    font-size: 1.0em;
+	font-family: Papyrus, fantasy;
+}
+
+.booking_side {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 600px;
+	
+}
+
+.booking_side h1 {
+	text-align: center;
+	
+	}
+
+.booking_side label {
+
+	display:inline-block;
+	float: left;
+    width:250px;
+	
+	font-family: Papyrus, fantasy;
+	margin-right: 25px;
+	font-size: 1.0em;
+	text-align: right;
+	}
+
+.booking_side input {
+	margin-top: 10px;
+	display:inline-block; 
+	float: left;
+	width: 300px;
+}
+
+.submitButton {
+	float: center;
+	width: 100px;
+	text-align: center;
+	margin-left: 275px;
+}
+
+.booking_side textarea {
+	float: left;
+	margin-top: 10px;
+	width: 300px;
+	height: 100px;
+}
+
+.booking_side select {
+	margin-top: 10px;
+	float: left;
+	width: 300px;
+	text-align: right;
+}
+
+.bookings_main {
+	 margin-left: 100px;
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	text-align: center;
+}

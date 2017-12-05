@@ -1,0 +1,282 @@
+.body {
+    background-color: #996633;
+    color: #FFFFFF;
+    
+}
+
+/***************** Navigation Layout ***********************/
+.nav_main {
+	display: block;
+	
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	
+	background-color: #663300;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav_main li {	
+	list-style-type: none;
+	float: left;
+		
+ 	width: 14.28571%;
+    width: calc(100% / 7 - 0.1px);	
+	
+	background-color: #663300;	
+	
+	text-align: center;
+	
+		
+}
+
+.nav_selected {
+	list-style-type: none;
+	float: left;
+		
+ 	width: 14.28571%;
+    width: calc(100% / 7 - 0.1px);
+    	
+	background-color: #452F1E;	
+	
+	text-align: center;	
+}
+
+.nav_selected a{ }
+
+.nav_selected a:hover{
+	 color: #996633;
+	background-color: #452F1E;
+	
+}	
+
+.nav_main a {	
+	display: inline-block;
+	
+	width: 100%;
+	padding: 5px 0px;
+		
+	color: #FFFFCC;
+		
+	text-decoration: none;
+}
+
+.nav_main a:hover{
+	 color: #452F1E;
+	background-color: #996633;
+	
+}	
+
+
+/****************** Banner Layout ***************************/
+.banner_main {
+	display: block;
+
+	width: 90%;
+	margin: 0 auto 0 auto;
+	
+	
+	background-color: #663300;
+}
+
+.banner_main img {
+	width: 100%;
+	
+}
+	
+/****************** Main Layout ***************************/
+.div_main {
+		display: block;
+		overflow: auto;
+	
+		height: 100%;	
+		width: 90%;
+		min_width: 700px;
+		margin: 0 auto 0 auto;
+		padding-top: 5px;
+	
+					
+    	color: #FFFFCC;		
+		background-color: #452F1E;
+		
+		text-align: center;
+	}
+
+/******************* Home Layout ***************************/
+.div_left {
+	
+	float: left; 
+	
+	width: 33%;
+	height: 100%;
+	
+	
+}
+
+.div_right {
+	
+	width: 34%;
+	height: 100%;
+	float: left; 
+}
+
+
+
+/********************** Home Layout *****************************/
+
+
+.home_center {
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	text-align: center;
+	width: 60%;	
+}
+
+.home_center img{
+	 box-shadow: 1px 1px 1px; 
+	border-style: solid;
+	border-width: 5px;
+}
+
+.home_side {
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 20%;
+	padding-top: 200px;
+	
+}
+
+.home_side p {
+		color: #FFFFCC;
+    font-size: 0.75em;
+}
+
+.iframe {
+	
+	scrolling: no;
+	border: none;
+	overflow: hidden;
+	
+}
+
+	
+/******************* Tours Layout ***************************/
+.tours_side {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 20%;
+}
+
+.tours_side a:link {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_side a:active {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_side a:visited {
+	color: #FFFFCC;
+	text-decoration: none;
+}
+
+.tours_main {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	width: 80%;
+	text-align: left;
+}
+
+.tours_main hr {
+	border-color: #FFFFCC;
+	padding: 0;
+	margin: 0;
+}
+
+.tours_main h1 {
+	font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	
+	text-decoration: underline;
+}
+	
+/******************* Booking Layout ***************************/
+.booking_side {
+	
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	width: 600px;
+	
+}
+
+.booking_side h1 {
+	text-align: center;
+	
+	}
+
+.booking_side label {
+
+	display:inline-block;
+	float: left;
+    width:250px;
+	
+	font-family: Papyrus, fantasy;
+	margin-right: 25px;
+	font-size: 1.0em;
+	text-align: right;
+	}
+
+.booking_side input {
+	margin-top: 10px;
+	display:inline-block; 
+	float: left;
+	width: 300px;
+}
+
+.booking_side button {
+	float: center;
+	margin-left: 25px;
+	width: 300px;
+	text-align: center;
+}
+
+.booking_side textarea {
+	float: left;
+	margin-top: 10px;
+	width: 300px;
+	height: 100px;
+}
+
+.booking_side select {
+	margin-top: 10px;
+	float: left;
+	width: 300px;
+	text-align: right;
+}
+
+.bookings_main {
+	 margin-left: 100px;
+	float: left;
+	color: #FFFFCC;
+    font-size: 1.5em;
+	font-family: Papyrus, fantasy;
+	text-align: center;
+}
+
